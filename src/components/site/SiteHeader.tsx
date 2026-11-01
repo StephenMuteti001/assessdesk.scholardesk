@@ -47,7 +47,7 @@ export function SiteHeader() {
   return (
     <header
     className={cn(
-      'sticky top-0 z-50 transition-[background-color,border-color] duration-300',
+      'sticky top-0 z-50 font-system transition-[background-color,border-color] duration-300',
       inverse ?
       'border-b border-primary-foreground/10 bg-primary-deep text-primary-foreground' :
       'border-b border-border bg-background/95 text-foreground backdrop-blur'

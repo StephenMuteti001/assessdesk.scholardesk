@@ -77,9 +77,6 @@ export default function Login() {
             
 						<div className="home-cinematic-overlay absolute inset-0 -z-10" aria-hidden="true" />
 						<div className="relative flex h-full flex-col justify-end gap-5 p-12 text-primary-foreground">
-							<p className="font-mono text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground/60">
-								AssessDesk by ScholarDesk
-							</p>
 							<p className="max-w-md text-2xl font-semibold leading-snug">
 								The answer is on your screen. Only you can see it.
 							</p>

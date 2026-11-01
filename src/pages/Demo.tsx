@@ -173,7 +173,7 @@ export default function Demo() {
 				<div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 					{COMPATIBILITY.map((group) =>
           <div key={group.title} className="rounded-md border border-border bg-background p-6">
-							<h3 className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-primary">{group.title}</h3>
+							<h3 className="text-base font-semibold text-foreground">{group.title}</h3>
 							<ul className="mt-4 flex flex-col gap-2.5">
 								{group.items.map((item) =>
               <li key={item} className="flex items-start gap-2.5 text-sm text-muted-foreground">

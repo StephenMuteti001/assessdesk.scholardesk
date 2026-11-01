@@ -259,7 +259,7 @@ export function OverlayPlayground() {
 
 			<div className="flex h-fit flex-col gap-6 rounded-md border border-border bg-surface p-6">
 				<div className="flex flex-col gap-1">
-					<p className="font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">Try the controls</p>
+					<h3 className="text-base font-semibold text-foreground">Try the controls</h3>
 					<p className="text-sm leading-relaxed text-muted-foreground">
 						In the real tool each of these is a global hotkey. Here they are buttons so you can see exactly what they do.
 					</p>

@@ -159,7 +159,7 @@ export default function ForProfessionals() {
 						</ul>
 					</div>
 					<div className="flex flex-col gap-3 rounded-md border border-border bg-background p-6">
-						<p className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-primary">Shortcuts you will use most</p>
+						<h3 className="text-base font-semibold text-foreground">Shortcuts you will use most</h3>
 						{HOTKEY_GROUPS.flatMap((g) => g.keys).
             slice(0, 6).
             map((key) =>

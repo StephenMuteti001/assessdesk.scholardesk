@@ -98,9 +98,6 @@ export default function Index() {
 				<div className="relative mx-auto max-w-7xl px-4 pb-20 pt-32 sm:px-6 sm:pb-24 sm:pt-36 lg:px-8 lg:pb-28">
 					<div className="grid items-center gap-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.02fr)]">
 						<div className="flex max-w-2xl flex-col gap-7">
-							<span className="inline-flex w-fit items-center gap-2 rounded-md border border-primary-foreground/25 bg-primary-foreground/10 px-3 py-1.5 font-mono text-[11px] font-semibold uppercase tracking-[0.16em]">
-								AssessDesk by ScholarDesk
-							</span>
 
 							<h1 className="text-4xl font-semibold leading-[1.14] lg:text-6xl lg:leading-[1.08]">
 								The answer is on your screen.{' '}
@@ -247,8 +244,7 @@ export default function Index() {
 							<IconChip>
 								<a.icon className="h-6 w-6" />
 							</IconChip>
-							<p className="mt-5 font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">{a.label}</p>
-							<h3 className="mt-2 text-2xl font-semibold">{a.heading}</h3>
+							<h3 className="mt-5 text-2xl font-semibold">{a.heading}</h3>
 							<ul className="mt-6 flex flex-1 flex-col gap-3">
 								{a.points.map((point) =>
               <li key={point} className="flex items-start gap-3 text-sm text-muted-foreground">
@@ -276,7 +272,7 @@ export default function Index() {
 					<div className="grid gap-4 sm:grid-cols-2">
 						{COMPATIBILITY.map((group) =>
             <div key={group.title} className="rounded-md border border-border bg-background p-5">
-								<h3 className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-primary">{group.title}</h3>
+								<h3 className="text-base font-semibold text-foreground">{group.title}</h3>
 								<ul className="mt-3 flex flex-col gap-2">
 									{group.items.map((item) =>
                 <li key={item} className="text-sm text-muted-foreground">
